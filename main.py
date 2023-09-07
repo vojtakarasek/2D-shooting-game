@@ -313,8 +313,7 @@ while run:
         draw_pause()
 
     if level == 1:
-        target_boxes = draw_level(one_coords) #dostane rectangles
-        one_coords = move_enemies(one_coords)
+        target_boxes = draw_level(one_coords) #dostane rectangles        one_coords = move_enemies(one_coords)
         if shot:
             one_coords = check_shot(target_boxes, one_coords)
             shot = False
